@@ -41,22 +41,18 @@ p{
 
 .grid-container {
  
-
-  display: inline-grid;
-  width: auto;
-  grid-template-columns: auto auto auto;/*repeat(4, 1fr);*/
-  grid-gap: 10px;
-  margin: 20px;
+ 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 20px;
   
-  /*display: flex;
-  flex-direction: row;
-  margin: 10px;
-  flex-wrap: wrap;
-  justify-content: center; */ 
   
 }
 
 .grid-item {
+
+  inline-size: 80%;
   color:#002435;    /* #00557b;*/
   display: flex;
   flex-direction: column;
@@ -64,8 +60,7 @@ p{
   text-align: center;
   padding: 20px;
   border-radius: 20px;
-  cursor: pointer;
-  margin: 5px;
+  
   /*flex-basis: 50px;*/
   
 }
