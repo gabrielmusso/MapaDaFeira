@@ -51,6 +51,7 @@ p{
   flex-direction: row;
   margin: 10px;
   flex-wrap: wrap;
+  justify-content: center;  
   
 }
 
@@ -64,7 +65,7 @@ p{
   border-radius: 20px;
   cursor: pointer;
   margin: 5px;
-  flex-basis: 50px;
+  /*flex-basis: 50px;*/
   
 }
 
