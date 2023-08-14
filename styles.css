@@ -56,8 +56,8 @@ p{
   display: grid;
   grid-template-columns: repeat(3, min-content);
   justify-content: center;
-  padding: 10%;
-  margin: 10%;
+  border: 10%;
+ 
   
  
   width: 100vw;
