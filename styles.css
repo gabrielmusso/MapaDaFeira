@@ -12,15 +12,15 @@ p{
 .page {
   display: box;
   width: 80%;
-  
-  margin: 0 auto;
+    margin: 0 auto;
   position: relative;
 }
 
-.page img {
+ img {
   width: 100%;
   height: auto;
 }
+
 
 .btn {
   display: inline-block;
@@ -41,18 +41,26 @@ p{
 
 .grid-container {
  
- 
-  display: grid;
+ /*display: flex;
+ align-items: center;
+ margin: 20px;
+ justify-content: space-between; 
+ flex-wrap: wrap;
+ min-width: min-content;
+ max-width: max-content;*/
+  /*display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   grid-template-rows: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 40px;
+  gap: 40px;*/
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   
   
 }
 
 .grid-item {
-
-  inline-size: 80%;
+  margin: 10px;
+  flex-grow: 1;
   color:#002435;    /* #00557b;*/
   display: flex;
   flex-direction: column;
