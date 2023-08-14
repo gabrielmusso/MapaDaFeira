@@ -56,11 +56,11 @@ p{
   display: grid;
   grid-template-columns: repeat(3, min-content);
   justify-content: center;
-  border: 10%;
+  border: 20% #002435;
  
   
  
-  width: 100vw;
+  width: 100%;
 
   
   
