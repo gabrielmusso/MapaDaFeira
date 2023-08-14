@@ -19,6 +19,7 @@ p{
  img {
   width: 100%;
   height: auto;
+  border: 5px solid #4290b7;
 }
 
 
@@ -54,6 +55,8 @@ p{
   gap: 40px;*/
   display: grid;
   grid-template-columns: repeat(4, min-content);
+  overflow: auto;
+  width: 100%
 
   
   
