@@ -55,7 +55,7 @@ p{
   gap: 40px;*/
   display: grid;
   grid-template-columns: repeat(4, min-content);
-  justify-content: center;
+ 
   width: 100vmin ;
 
   
