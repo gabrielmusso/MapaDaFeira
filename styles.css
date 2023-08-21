@@ -42,11 +42,11 @@ p{
 
 .grid-container {
  
- display: flex;
+ display: grid;
+ grid-template-columns: repeat(4, 20%);
  align-items: center;
  margin: 20px;
- justify-content: space-between; 
- flex-wrap: wrap;
+ justify-content: space-around;
  padding: 0;
  width: 100vw;
  height: 20vh;
