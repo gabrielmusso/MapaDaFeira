@@ -43,7 +43,7 @@ p{
 .grid-container {
  
  display: grid;
- grid-template-columns: repeat(4, min-content);
+ grid-template-columns: repeat(4, max-content);
  align-items: center;
  margin: 10px;
  justify-content: space-around;
@@ -57,7 +57,6 @@ p{
 
 .grid-item {
   margin: 10px;
-  flex-grow: 1;
   color:#002435;    /* #00557b;*/
   display: flex;
   flex-direction: column;
