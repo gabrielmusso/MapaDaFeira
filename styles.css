@@ -43,12 +43,13 @@ p{
 .grid-container {
  
  display: grid;
- grid-template-columns:repeat(3, max-content);
+ grid-template-columns:repeat(3, 30vw);
  align-items: center;
+ gap: 10px;
  margin: 10px;
  justify-content: space-around;
  padding: 0;
- width: 100%;
+ width: 90vw;
  
 
   
