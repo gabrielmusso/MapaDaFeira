@@ -42,31 +42,14 @@ p{
 
 .grid-container {
  
- /*display: flex;
+ display: flex;
  align-items: center;
  margin: 20px;
  justify-content: space-between; 
  flex-wrap: wrap;
- min-width: min-content;
- max-width: max-content;
-  
- display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 40px;
-  display: grid;
-  grid-template-columns: repeat(3, min-content);
-  justify-content: center;
-  border: 20% #002435;
-   width: 100%;*/
-   margin: 0;
-   padding: 10%;
-   display: flex;
-   flex-wrap: wrap;
-   align-content: flex-start;
-   justify-content: center;
-   width: 100vw;
-   height: max-content;
+ padding: 0;
+ width: 100vw;
+ height: 20vh;
 
   
   
