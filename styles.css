@@ -60,7 +60,7 @@ p{
   border: 20% #002435;
    width: 100%;*/
    margin: 0;
-   padding: 0;
+   padding: 10%;
    display: flex;
    flex-wrap: wrap;
    align-content: flex-start;
