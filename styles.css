@@ -43,13 +43,7 @@ p{
 .grid-container {
  
  display: grid;
- grid-template-columns:repeat(2 ,minmax(180px, 1fr));
- 
- 
- 
-
-  
-  
+ grid-template-columns:repeat(2 ,minmax(180px, 1fr));   
 }
 
 .grid-item {
@@ -62,8 +56,6 @@ p{
   text-align: center;
   padding: 20px;
   border-radius: 20px;
-  
-  /*flex-basis: 50px;*/
   
 }
 
@@ -78,4 +70,14 @@ p{
   width: 300px;
   height: auto;
 }
+
+.discentes{
+  font-size:large;
+  text-align: center;
+}
+.pagprof{
+  display: flex;
+  flex-direction: column;
+}
+
 
