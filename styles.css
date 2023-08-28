@@ -28,7 +28,9 @@ p{
   padding: 10px 20px;
   border-radius: 20px;
   margin: 20px;
+  font-weight: bold;
   background-color: #4290b7;
+  
   color: #002435;
   border: none;
   cursor: pointer;
