@@ -76,6 +76,10 @@ p{
   width: 300px;
   height: auto;
 }
+.disc{
+  margin: 10px;
+  font-size: large;
+}
 
 .discentes{
   font-size:large;
@@ -88,6 +92,8 @@ p{
 }
 .tema{
   font-style: italic;
+  font-size: large;
+
 }
 
 
